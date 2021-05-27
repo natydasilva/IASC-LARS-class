@@ -1,0 +1,78 @@
+\documentclass[12pt]{article}
+\usepackage{amsmath}
+\usepackage{graphicx}
+\usepackage{natbib}
+\usepackage{url} % not crucial - just used below for the URL 
+\usepackage{multirow}
+\usepackage{mathtools}
+\usepackage{amsfonts}
+\usepackage{rotating}
+\usepackage{booktabs}
+\usepackage{verbatim}
+\usepackage{mathrsfs}
+\usepackage{hyperref}
+\usepackage{pdflscape}
+\usepackage{caption}
+\usepackage{tablefootnote}
+\usepackage{verbatim}
+\usepackage{setspace}
+\usepackage[utf8]{inputenc}
+\usepackage{authblk}
+\usepackage{pdfpages}
+\usepackage{fancyhdr}
+
+\title{Data Visualization, Theory and Aplications}
+\author{Natalia da Silva\\
+Instituto de Estad\'istica-Universidad de la Rep\'ublica}
+\date{}
+\begin{document}
+\maketitle
+Data visualization plays an important role in every step of the statistical analysis workflow.  Visualization is a key component for exploratory data analysis but also can help in model building and diagnosis. This workshop will cover the basics and some challenges in data visualization.  We will go over the fundamentals of data visualization, see how to create data displays in R, and finally see some advanced topics like graphical inference and visualization in high dimensions. 
+
+ 
+
+\section*{ Monday - November 22}
+9:00 to 11:30 UTC-3
+
+\textbf{Fundamentals of data visualization}
+\begin{enumerate}
+\item Importance of visualization
+\item Basic data visualizations
+\item Principles of Gestalt 
+\item Use of color
+\item Perception
+\end{enumerate}
+
+\newpage
+\section*{ Tuesday - November 24}
+9:00 to 11:30 UTC-3
+
+\textbf{Creating data displays in R}
+\begin{enumerate}
+\item Grammar of graphics with ggplot2
+\item Multiple layers, facetting and tidying your data
+\item Scales and color
+\item Publication-ready plots
+\item Additional geoms
+\item Interactive visualization
+\end{enumerate}
+
+\section*{ Wednesday - November 25} 
+9:00 to 11:30 UTC-3
+
+\textbf{Advanced topics}
+
+\begin{enumerate}
+\item Graphical inference
+\item Visualization in high dimensions
+\item Visualizing models
+\end{enumerate}
+
+\newpage
+\nocite{*}
+\bibliographystyle{spr-chicago}
+\bibliography{biblo}
+
+
+
+\end{document}
