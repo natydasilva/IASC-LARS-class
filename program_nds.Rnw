@@ -22,50 +22,66 @@
 \usepackage{fancyhdr}
 
 \title{Data Visualization, Theory and Aplications}
-\author{Natalia da Silva\\
-Instituto de Estad\'istica-Universidad de la Rep\'ublica}
+\author{}
 \date{}
 \begin{document}
 \maketitle
-Data visualization plays an important role in every step of the statistical analysis workflow.  Visualization is a key component for exploratory data analysis but also can help in model building and diagnosis. This workshop will cover the basics and some challenges in data visualization.  We will go over the fundamentals of data visualization, see how to create data displays in R, and finally see some advanced topics like graphical inference and visualization in high dimensions. 
 
- 
+\section*{Description}
+Data visualization plays an important role in every step of the statistical analysis workflow. Visualization is a key component for exploratory data analysis but also can help in model building and diagnosis. This workshop will cover the foundational principles of statistical graphics, computational tools for data visualization, and go over some challenges in advanced topics of visualization.\\
 
-\section*{ Monday - November 22}
-9:00 to 11:30 UTC-3
+This workshop is suitable for those interested in learning fundamentals in data visualization who are not very familiar with the grammar of graphics and its implementation in R and want to explore some advanced topics on data visualization.
+Students should know how to use R to make the most of this workshop. 
 
-\textbf{Fundamentals of data visualization}
+As building blocks of data visualization, the workshop will cover the grammar of graphics, the relevance of graphics in the statistical workflow, and a glimpse of human perception and color theory. Then, the use of {\texttt ggplot2 } and other related packages to produce publication-ready plots, is presented as a hands-on tutorial. Finally, graphics tools for model diagnosis are explored, for example, display the model's main features in the context of the original data is key to understand how the model works. Other advanced topics, as visualization in high dimensions and graphical inference, are introduced. 
+
+\section*{Instructor}
+
+Natalia da Silva (Instituto de Estad\'istica-Universidad de la Rep\'ublica)
+
+
+\newpage
+
+\section*{Agenda}
+(Local time: Montevideo Uruguay, UTC-3)\\
+\subsection*{ Monday - November 22, 9:00 to 11:30}
+\subsubsection*{Fundamentals of data visualization}
+
 \begin{enumerate}
-\item Importance of visualization
-\item Basic data visualizations
-\item Principles of Gestalt 
-\item Use of color
-\item Perception
+\item Importance of visualization.
+\item Basic data visualizations: (barchart, histogram, density plot, scatterplot, boxplot). 
+\item Gestalt principles of visual perception: emergence, reification, multi-stability, invariance, laws of grouping (proximity, similaritiesclosure,continuity, connectedness).
+\item Aesthetic mappings and visual encodings of data.
+\item Use of color: how to select color  based on the fundamental use cases (distinguish groups, represent data values and highlight).
+\item Introduction to the grammar of graphics with ggplot2.
+\end{enumerate}
+
+
+\subsection*{ Tuesday - November 24, 9:00 to 11:30 }
+\subsubsection*{Creating data displays in R}
+
+\begin{enumerate}
+\item How to do basic data visualizations with ggplot2.
+\item Multiple layers, facetting and tidying your data.
+\item Scales and color.
+\item Publication-ready plots:  themes, axes and aspect ratios, annotations. 
+\item Additional geoms, examples to visualize uncertainty.
+\item Introduction to interactive visualization with plotly.
 \end{enumerate}
 
 \newpage
-\section*{ Tuesday - November 24}
-9:00 to 11:30 UTC-3
 
-\textbf{Creating data displays in R}
-\begin{enumerate}
-\item Grammar of graphics with ggplot2
-\item Multiple layers, facetting and tidying your data
-\item Scales and color
-\item Publication-ready plots
-\item Additional geoms
-\item Interactive visualization
-\end{enumerate}
-
-\section*{ Wednesday - November 25} 
-9:00 to 11:30 UTC-3
-
-\textbf{Advanced topics}
+\subsection*{ Wednesday - November 25, 9:00 to 11:30} 
+\subsubsection*{Advanced topics}
 
 \begin{enumerate}
-\item Graphical inference
-\item Visualization in high dimensions
-\item Visualizing models
+\item Visualizing models: display the model in the data space, look at all members of a collection and explore the process of model fitting, not just the end result.
+\item Introduction to graphical inference.
+\item Visualization in high dimensions, focus on visualizing high-dimensional numerical data using linear projections.
+
+
+
+
 \end{enumerate}
 
 \newpage
